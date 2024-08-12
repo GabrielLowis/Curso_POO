@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Negrito";
+    src: url(/Fonts/Poppins-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Negrito Italico";
+    src: url(/Fonts/Poppins-SemiBoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins_Light";
+    src: url(/Fonts/Poppins-Light.ttf)
+}
+
+
+body{
+    background-color: #0b1111;
+    color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    font-family: "Negrito";
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+img{
+    width: 500px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 0px;
+    color:#8a2be2
+}
+span{
+    font-family: "Negrito Italico";
+    font-size: 50px;
+    line-height: 50px;
+    color:aliceblue
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: "Poppins_Light";
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: #8a2be2;
+}
+#conteudo{
+    border: 2px solid #8a2be2;
+    padding: 10px;
+    border-radius: 15px;
+}
+#conteudo:hover{
+    background-color: #8a2be2;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
