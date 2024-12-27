@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Negrito";
-    src: url(/Fonts/Poppins-SemiBold.ttf);
+    src: url(./fonts/Poppins-SemiBold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Negrito Italico";
-    src: url(/Fonts/Poppins-SemiBoldItalic.ttf);
+    src: url(./fonts/Poppins-SemiBoldItalic.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Poppins_Light";
-    src: url(/Fonts/Poppins-Light.ttf)
+    src: url(./fonts/Poppins-Light.ttf)
 }
 
 
