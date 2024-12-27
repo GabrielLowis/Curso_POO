@@ -1,31 +1,126 @@
-@font-face {
-    font-family: "Negrito";
-    src: url(/Fonts/Poppins-SemiBold.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Negrito Italico";
-    src: url(/Fonts/Poppins-SemiBoldItalic.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Poppins_Light";
-    src: url(/Fonts/Poppins-Light.ttf)
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
 body{
     background-color: #0b1111;
     color: white;
     margin: 0 auto;
     max-width: 1200px;
-    font-family: "Negrito";
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 h1{
-    font-family: "Negrito Italico";
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: italic;
 }
 
 header{
@@ -67,11 +162,13 @@ h2{
 
 p{
     font-size: 25px;
-    font-family: "Poppins_Light";
+    font-family: "Poppins";
+    font-weight: 300;
 }
 
 #exem_prog{
-    font-family: "Negrito";
+    font-family: "Poppins";
+    font-weight: 600;
     border:5px solid #8a2be2;
     border-radius: 15px;
     padding: 10px;
@@ -94,7 +191,9 @@ img{
 
 #pe_vs_poo{
     h3{
-        font-family: "Negrito Italico";
+        font-family: "Poppins";
+        font-weight: 600;
+        font-style: italic;
         font-size: 35px;
         color: #8a2be2;
     }
@@ -121,7 +220,8 @@ span{
     font-size: 30px;
 }
 #Poo{
-    font-family: "Negrito";
+    font-family: "Poppins";
+    font-weight: 600;
 }
 
 #car_poo{
@@ -133,7 +233,8 @@ color: #8a2be2;
     flex-direction: row;
     
     p{
-    font-family: "Negrito";
+    font-family: "Poppins";
+    font-weight: 600;
     border:5px solid #8a2be2;
     border-radius: 15px;
     padding: 10px;
@@ -151,7 +252,9 @@ color: #8a2be2;
 
 #exemplo{
     font-size: 50px;
-    font-family: "Negrito Italico";
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: italic;
     color: #6251ff;
 }
 #classepessoa{
@@ -164,7 +267,9 @@ color: #8a2be2;
     font-size: 50px;
 }
 #negrito{
-    font-family: "Negrito Italico";
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: italic;
     font-size: 20px;
 }
 #p{
@@ -183,7 +288,9 @@ color: #8a2be2;
 }
 
 #center{
-    font-family: "Negrito Italico";
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: italic;
     font-size: 50px;
     text-align: center;
 }
